@@ -1,0 +1,15 @@
+[plugin:vite:vue] [vue/compiler-sfc] Identifier 'handleDeviceSelectionChange' has already been declared. (300:6)
+
+D:/FT-SchoolFlow5/frontend/src/views/access/PermissionForm.vue
+741|  
+742|  // 选中设备列表中的变化处理（如果需要原始设备列表的多选功能）
+743|  const handleDeviceSelectionChange = (selection) => {
+744|    // 原来的处理逻辑
+745|  }
+D:/FT-SchoolFlow5/frontend/src/views/access/PermissionForm.vue:300:6
+211|                    default-expand-all
+212|                    :expand-on-click-node="false"
+213|                    @node-click="handleDepartmentNodeClick"
+   |                                      ^
+214|                  />
+215|                </div>

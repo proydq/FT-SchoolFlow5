@@ -1,0 +1,9 @@
+[vue/compiler-sfc] Identifier 'filteredDevices' has already been declared. (195:6)
+
+D:/FT-SchoolFlow5/frontend/src/views/access/PermissionForm.vue
+564|  
+565|  // 过滤后的设备数据
+566|  const filteredDevices = computed(() => {
+   |        ^
+567|    if (!deviceSearch.value) return allDevices.value
+568|    return allDevices.value.filter(device =>
